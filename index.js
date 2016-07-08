@@ -13,7 +13,7 @@ if (!databaseUri) {
 var pushConfig = {};
 
 if (process.env.GCM_SENDER_ID && process.env.GCM_API_KEY) {
-    pushConfig['android'] = { senderId: process.env.GCM_SENDER_ID || 'khaotic-1359',
+    pushConfig['android'] = { senderId: process.env.GCM_SENDER_ID || '221401655123',
                               apiKey: process.env.GCM_API_KEY || 'AIzaSyBfFWkZg7wg3bHcj3M5pO7vgZsEQq0UPrM'};
 }
 
